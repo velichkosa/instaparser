@@ -7,6 +7,14 @@ import scrapy
 
 
 class InstagramItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    username = scrapy.Field()
+    full_name = scrapy.Field()
+    user_id = scrapy.Field()
+    photo = scrapy.Field()
+    post_data = scrapy.Field()
+    master_id = scrapy.Field()
+    friendship = scrapy.Field()
+    _id = scrapy.Field()
+
+
+
